@@ -422,6 +422,23 @@ nav {
 
 }
 @media (width: 912px) {
+  .home-bg {
+      height: 20vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
+  }
+
+  .home-content {
+      width: 75%;
+      border-radius: 0% 0% 0% 70%;
+      height: 45%;
+
+      h1 {
+          margin-top: 5%;
+          font-size: 4em;
+          margin-left: 10%;
+
+      }
+  }
 .nav-menu {
   flex-direction: column;
   align-items: stretch;
@@ -528,7 +545,7 @@ margin-left: 15%;
 
 .highlight {
   color: #ff6600;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 
@@ -656,7 +673,7 @@ margin-left: 15%;
 }
 
 .grow-business-section h2 {
-  font-size: 80px;
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
@@ -1139,7 +1156,7 @@ margin-left: 15%;
 
 #contactHeading{
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 #contactHr{
@@ -2802,7 +2819,7 @@ hr{
 #faq_section{
   h1{
 font-family: "Manrope";
-font-size: 70px;
+font-size: 60px;
 font-weight: 450;
   }
   
@@ -2876,7 +2893,7 @@ width: 100%;
 #footerLogo {
   width: 9.5em;
   /* border: 1px solid white; */
-  margin-bottom: -5em;
+  margin-bottom: 0.2em;
 
 }
 #footerLogoText{
@@ -3295,6 +3312,29 @@ width: 1em;
    display:none;
   }
 }
+@media only screen and (width:853px) {
+ .home-bg {
+      height: 20vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
+  }
+
+  .home-content {
+      width: 75%;
+      border-radius: 0% 0% 0% 70%;
+      height: 45%;
+
+      h1 {
+          margin-top: 5%;
+          font-size: 4em;
+          margin-left: 10%;
+
+      }
+  }
+
+ nav{
+  margin: 0%;
+ }
+}
 
 @media only screen and (min-width: 853px) and (max-width: 1280px) {
 .faq {
@@ -3434,7 +3474,7 @@ margin-top: 1%;
 
 #working{
  text-align: center;
- font-size: 70px;
+ font-size: 60px;
 }
 .howitworks{
  margin-top: 20vh;
@@ -4973,7 +5013,7 @@ border-radius: 10px;
 
 /* Section */
 #about {
-  font-size: 2.5em;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -4987,12 +5027,12 @@ border-radius: 10px;
 }
 
 #vegFruit {
-  filter: brightness(55%);
-  width: 37%;
+ 
+  width: 35.1%;
   border-radius: 0 0 0 50%;
-  left: 67.5%;
+  left: 65.4%;
   position: absolute;
-  top: 107%;
+  top: 98.5%;
 }
 
 .mama {
@@ -5051,10 +5091,15 @@ border-radius: 10px;
 #footerLogoText {
   text-align: center;
   margin-top: 10px;
+  /* margin-left: 5%; */
+  font-size: 21px;
+
 }
 
 .footerLogo {
-  text-align: center;
+  /* text-align: center; */
+  margin-top: 2%;
+  margin-left: -10%;
 }
 
 .footerCopyright {
@@ -5211,7 +5256,7 @@ border-radius: 10px;
     display: block;
     margin-left: 1%;
     
-    width: 98%;
+    width: 100%;
   }
 
   #vegFruit {
@@ -5277,3 +5322,4 @@ border-radius: 10px;
   }
   
 }
+
