@@ -11,6 +11,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
 const openMenu = document.getElementById('openMenu');
 const closeMenu = document.getElementById('closeMenu');
 const navMenu = document.getElementById('navMenu');
